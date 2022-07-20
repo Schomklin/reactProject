@@ -6,6 +6,11 @@ import LotsOfGreetings from './components/LotsOfGreetings'
 import MyCustomTextWith from './components/MyCustomTextWith'
 import Count from './components/Count'
 import InputText from './components/InputText'
+import UserNamePassword from './components/UserNamePassword'
+import AlertComponent from './components/AlertComponent'
+import ImageWithTextInput from './components/ImageWithTextInput'
+import ButtonExample from './components/ButtonExample'
+import Touchable_Example from './components/Touchable_Example'
 
 const App = () => {
   return (
@@ -15,11 +20,17 @@ const App = () => {
       {/* <LotsOfGreetings/> */}
       {/* <MyCustomTextWith/> */}
       {/* <Count/> */}
-      <InputText/>
+      {/* <InputText/> */}
+      {/* <UserNamePassword/> */}
+      {/* <AlertComponent/> */}
+      {/* <ImageWithTextInput/> */}
+      {/* <ButtonExample/> */}
+      <Touchable_Example/>
     </View>
   )
 }
 export default App
+
 const styles = StyleSheet.create({
   container:{
     flex:1,
